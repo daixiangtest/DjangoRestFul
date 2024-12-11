@@ -37,9 +37,9 @@ REST_FRAMEWORK = {
     #     'rest_framework.permissions.IsAuthenticated',  # 权限管理类
     # )
     # 配置权限对权限限流
-    'DEFAULT_THROTTLE_RATES': {
-        'user': '2/minute'
-    },
+    # 'DEFAULT_THROTTLE_RATES': {
+    #     'user': '2/minute'
+    # },
     # 配置过滤器选项
     'DEFAULT_FILTER_BACKENDS':
         (
@@ -120,9 +120,9 @@ DATABASES = {
         # 端口号
         'PORT': 3306,
         # 登录密码
-        'PASSWORD': '123456',
+        'PASSWORD': 'Dx3826729123',
         # 主机ip
-        'HOST': '127.0.0.1'
+        'HOST': '115.120.244.181'
 
     }
 }
